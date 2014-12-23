@@ -2,7 +2,6 @@ package arkanoid.logic.sprites;
 
 import arkanoid.logic.sprites.drawing.ImageCreator;
 import arkanoid.logic.sprites.drawing.MonochromeCircleCreator;
-import arkanoid.logic.sprites.drawing.MonochromeRectangleCreator;
 
 /**
  * Created by Jasper on 22/12/2014.
@@ -20,11 +19,12 @@ public class Ball extends Sprite {
 
     @Override
     protected ImageCreator createImageCreator() {
-        return new MonochromeCircleCreator(getWidth(), COLOR);
+        return new MonochromeCircleCreator(width(), COLOR);
     }
 
-    public void move() {
-        setX(getX() + horizontalSpeed);
-        setY(getY() + verticalSpeed);
+    public Ball move() {
+        int newX = x() + horizontalSpeed;
+        int newY = y() + verticalSpeed;
+        return new Ball(newX, newY, width(), horizontalSpeed, verticalSpeed);
     }
 }

@@ -22,7 +22,7 @@ public class Level extends Observable {
     {
         setLevelNumber(levelNumber);
         blocks = arkanoidFactory.getBlocksOfLevel(levelNumber);
-        player1 = new Paddle(WIDTH / 2, HEIGHT - 10, 70, 10, 10);
+        player1 = new Paddle(WIDTH / 2, HEIGHT - 10, 70, 10, 10, false, false);
         ball = new Ball(120, 120, 10, 5, 5);
     }
 

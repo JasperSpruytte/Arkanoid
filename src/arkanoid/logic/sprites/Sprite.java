@@ -1,24 +1,27 @@
 package arkanoid.logic.sprites;
 
 import arkanoid.logic.sprites.drawing.ImageCreator;
+import jdk.nashorn.internal.ir.annotations.Immutable;
 
 import java.awt.*;
 
 /**
  * Created by Jasper on 21/12/2014.
  */
+@Immutable
 public abstract class Sprite {
-    private int x;
-    private int y;
-    private int width;
-    private int height;
+    private final int x;
+    private final int y;
+    private final int width;
+    private final int height;
 
     public Sprite(int x, int y, int width, int height)
     {
-        setX(x);
-        setY(y);
-        setWidth(width);
-        setHeight(height);
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.height = height;
+        checkConstLimits();
     }
 
     public Image createImage()
@@ -27,49 +30,34 @@ public abstract class Sprite {
         return imageCreator.createImage();
     }
 
+    private void checkConstLimits()
+    {   if (x < 0)
+            throw new IllegalArgumentException("X has to be positive.");
+        if (y < 0)
+            throw new IllegalArgumentException("Y has to be positive.");
+        if (width < 1)
+            throw new IllegalArgumentException("The width must be at least 1.");
+        if (height < 1)
+            throw new IllegalArgumentException("The height has to be at least 1.");
+    }
+
     protected abstract ImageCreator createImageCreator();
 
-    public int getX() {
+    public int x() {
         return x;
     }
 
-    public int getY() {
+    public int y() {
         return y;
     }
 
-    public int getWidth() {
+    public int width() {
         return width;
     }
 
-    public int getHeight() {
+    public int height() {
         return height;
     }
 
-    protected void setX(int x)
-    {
-        if (x < 0)
-            throw new IllegalArgumentException("X has to be positive.");
-        this.x = x;
-    }
 
-    protected void setY(int y)
-    {
-        if (y < 0)
-            throw new IllegalArgumentException("Y has to be positive.");
-        this.y = y;
-    }
-
-    private void setWidth(int width)
-    {
-        if (width < 1)
-            throw new IllegalArgumentException("The width must be at least 1.");
-        this.width = width;
-    }
-
-    private void setHeight(int height)
-    {
-        if (height < 1)
-            throw new IllegalArgumentException("The height has to be at least 1.");
-        this.height = height;
-    }
 }

@@ -3,8 +3,6 @@ package arkanoid.logic.sprites;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class PaddleTest {
 
     @Test(expected = IllegalArgumentException.class)
@@ -22,10 +20,10 @@ public class PaddleTest {
         Paddle paddle = new Paddle(initialX, 1, 1, 1, speed);
         int expectedNewX = initialX + speed;
 
-        paddle.setMovingRight(true);
+        paddle.startMovingRight();
         paddle.move();
 
-        Assert.assertEquals(expectedNewX, paddle.getX());
+        Assert.assertEquals(expectedNewX, paddle.x());
     }
 
     @Test
@@ -36,10 +34,10 @@ public class PaddleTest {
         Paddle paddle = new Paddle(initialX, 1, 1, 1, speed);
         int expectedNewX = initialX - speed;
 
-        paddle.setMovingLeft(true);
+        paddle.startMovingLeft();
         paddle.move();
 
-        Assert.assertEquals(expectedNewX, paddle.getX());
+        Assert.assertEquals(expectedNewX, paddle.x());
     }
 
 }

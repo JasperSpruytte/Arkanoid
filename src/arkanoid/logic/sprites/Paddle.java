@@ -2,48 +2,68 @@ package arkanoid.logic.sprites;
 
 import arkanoid.logic.sprites.drawing.ImageCreator;
 import arkanoid.logic.sprites.drawing.MonochromeRectangleCreator;
-
-import java.awt.*;
+import jdk.nashorn.internal.ir.annotations.Immutable;
 
 /**
  * Created by Jasper on 22/12/2014.
  */
-public class Paddle extends Sprite {
-    private int speed;
-    private boolean movingRight;
-    private boolean movingLeft;
+@Immutable
+public final class Paddle extends Sprite {
+    private final int speed;
+    private final boolean movingRight;
+    private final boolean movingLeft;
     private final String COLOR = "#000000";
 
-    public Paddle(int x, int y, int width, int height, int speed) {
+    public Paddle(int x, int y, int width, int height, int speed, boolean movingLeft, boolean movingRight) {
         super(x, y, width, height);
-        setSpeed(speed);
-    }
-
-    private void setSpeed(int speed)
-    {
-        if (speed < 0)
-            throw new IllegalArgumentException("The speed has to be positive.");
         this.speed = speed;
-    }
-
-    public void move() {
-        if (movingRight)
-            setX(getX() + speed);
-        if (movingLeft)
-            setX(getX() - speed);
-    }
-
-    public void setMovingRight(boolean movingRight) {
+        checkSpeed();
+        this.movingLeft = movingLeft;
         this.movingRight = movingRight;
     }
 
-    public void setMovingLeft(boolean movingLeft) {
-        this.movingLeft = movingLeft;
+    private void checkSpeed()
+    {
+        if (speed < 0)
+            throw new IllegalArgumentException("The speed has to be positive.");
+    }
+
+    public Paddle move() {
+        int newX = x();
+        if (movingRight)
+            newX += speed;
+        if (movingLeft)
+            newX -= speed;
+        return new Paddle(newX, y(), width(), height(), speed, movingLeft, movingRight);
+    }
+
+    public Paddle startMovingRight()
+    {
+        boolean newMovingRight = true;
+        return new Paddle(x(), y(), width(), height(), speed, movingLeft, newMovingRight);
+    }
+
+    public Paddle stopMovingRight()
+    {
+        boolean newMovingRight = false;
+        return new Paddle(x(), y(), width(), height(), speed, movingLeft, newMovingRight);
+    }
+
+    public Paddle startMovingLeft()
+    {
+        boolean newMovingLeft = true;
+        return new Paddle(x(), y(), width(), height(), speed, newMovingLeft, movingRight);
+    }
+
+    public Paddle stopMovingLeft()
+    {
+        boolean newMovingLeft = false;
+        return new Paddle(x(), y(), width(), height(), speed, true, movingRight);
     }
 
     @Override
     protected ImageCreator createImageCreator() {
-        ImageCreator imageCreator = new MonochromeRectangleCreator(getWidth(), getHeight(), COLOR);
+        ImageCreator imageCreator = new MonochromeRectangleCreator(width(), height(), COLOR);
         return imageCreator;
     }
 }
