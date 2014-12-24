@@ -29,8 +29,13 @@
         <entry file="file://$PROJECT_DIR$/src/arkanoid/UI/LevelPanel.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="1836">
               <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="1836">
+              <caret line="102" column="41" selection-start-line="102" selection-start-column="41" selection-end-line="102" selection-end-column="41" />
+>>>>>>> parent of fa9b52c... Started making objects immutable
 =======
             <state vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="1836">
               <caret line="102" column="41" selection-start-line="102" selection-start-column="41" selection-end-line="102" selection-end-column="41" />
@@ -44,8 +49,13 @@
         <entry file="file://$PROJECT_DIR$/src/arkanoid/UI/ArkanoidFrame.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.21843971" vertical-offset="16" max-vertical-offset="799">
               <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="459">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+>>>>>>> parent of fa9b52c... Started making objects immutable
 =======
             <state vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="459">
               <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
@@ -59,8 +69,13 @@
         <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/Arkanoid.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="578">
               <caret line="27" column="77" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="493">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+>>>>>>> parent of fa9b52c... Started making objects immutable
 =======
             <state vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="493">
               <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
@@ -76,10 +91,13 @@
         <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/sprites/Ball.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="493">
               <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding />
 =======
+=======
+>>>>>>> parent of fa9b52c... Started making objects immutable
             <state vertical-scroll-proportion="0.0" vertical-offset="141" max-vertical-offset="612">
               <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
               <folding>
@@ -87,6 +105,9 @@
                 <element signature="e#691#692#0" expanded="true" />
                 <element signature="e#760#761#0" expanded="true" />
               </folding>
+<<<<<<< HEAD
+>>>>>>> parent of fa9b52c... Started making objects immutable
+=======
 >>>>>>> parent of fa9b52c... Started making objects immutable
             </state>
           </provider>
@@ -108,16 +129,22 @@
         <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/sprites/Sprite.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="901">
               <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding />
 =======
+=======
+>>>>>>> parent of fa9b52c... Started making objects immutable
             <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1173">
               <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#setX#0;class#Sprite#0" expanded="false" />
               </folding>
+<<<<<<< HEAD
+>>>>>>> parent of fa9b52c... Started making objects immutable
+=======
 >>>>>>> parent of fa9b52c... Started making objects immutable
             </state>
           </provider>
@@ -127,8 +154,13 @@
         <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/Level.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1326">
               <caret line="24" column="77" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
+=======
+            <state vertical-scroll-proportion="0.3716312" vertical-offset="401" max-vertical-offset="1275">
+              <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+>>>>>>> parent of fa9b52c... Started making objects immutable
 =======
             <state vertical-scroll-proportion="0.3716312" vertical-offset="401" max-vertical-offset="1275">
               <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
@@ -142,8 +174,13 @@
         <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/sprites/drawing/MonochromeCircleCreator.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="561">
               <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="714">
+              <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+>>>>>>> parent of fa9b52c... Started making objects immutable
 =======
             <state vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="714">
               <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
@@ -478,8 +515,13 @@
         </subPane>
       </pane>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> parent of fa9b52c... Started making objects immutable
 =======
       <pane id="PackagesPane" />
       <pane id="Scope" />
@@ -798,15 +840,21 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287858" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32742155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
 =======
+=======
+>>>>>>> parent of fa9b52c... Started making objects immutable
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32775453" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+>>>>>>> parent of fa9b52c... Started making objects immutable
+=======
 >>>>>>> parent of fa9b52c... Started making objects immutable
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1098,6 +1146,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/sprites/Paddle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="145" max-vertical-offset="867">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/sprites/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <caret line="25" column="90" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittests/arkanoid/logic/sprites/SpriteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/arkanoid/dataaccess/MySQLArkanoidFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29608127" vertical-offset="0" max-vertical-offset="689">
@@ -1157,6 +1229,7 @@
     <entry file="file://$PROJECT_DIR$/unittests/arkanoid/logic/sprites/BallTest.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="493">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
@@ -1205,6 +1278,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1173">
           <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="561">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/sprites/Sprite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1173">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setX#0;class#Sprite#0" expanded="false" />
@@ -1212,6 +1298,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/Arkanoid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="493">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+>>>>>>> parent of fa9b52c... Started making objects immutable
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setX#0;class#Sprite#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/Arkanoid.java">
 >>>>>>> parent of fa9b52c... Started making objects immutable
       <provider selected="true" editor-type-id="text-editor">
@@ -1223,6 +1322,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> parent of fa9b52c... Started making objects immutable
     <entry file="file://$PROJECT_DIR$/src/arkanoid/UI/ArkanoidFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="459">
@@ -1264,6 +1365,7 @@
     <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/Level.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="1275">
           <caret line="24" column="77" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
           <folding />
@@ -1274,6 +1376,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21843971" vertical-offset="16" max-vertical-offset="799">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+=======
+        <state vertical-scroll-proportion="0.3716312" vertical-offset="401" max-vertical-offset="1275">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+>>>>>>> parent of fa9b52c... Started making objects immutable
 =======
         <state vertical-scroll-proportion="0.3716312" vertical-offset="401" max-vertical-offset="1275">
           <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
