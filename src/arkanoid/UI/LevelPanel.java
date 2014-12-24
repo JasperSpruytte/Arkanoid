@@ -10,6 +10,7 @@ import arkanoid.logic.sprites.Sprite;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
+import java.awt.event.KeyEvent;
 import java.util.Iterator;
 import java.util.Observable;
 import java.util.Observer;
@@ -36,7 +37,7 @@ public class LevelPanel extends JPanel implements Observer {
         while (sprites.hasNext())
         {
             Sprite sprite = sprites.next();
-            g.drawImage(sprite.createImage(), sprite.x(), sprite.y(), this);
+            g.drawImage(sprite.createImage(), sprite.getX(), sprite.getY(), this);
         }
 
     }
@@ -60,7 +61,7 @@ public class LevelPanel extends JPanel implements Observer {
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                player1.startMovingLeft();
+                player1.setMovingLeft(true);
             }
         });
 
@@ -69,7 +70,7 @@ public class LevelPanel extends JPanel implements Observer {
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                player1.stopMovingLeft();
+                player1.setMovingLeft(false);
             }
         });
 
@@ -78,7 +79,7 @@ public class LevelPanel extends JPanel implements Observer {
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                player1.startMovingRight();
+                player1.setMovingRight(true);
             }
         });
 
@@ -87,7 +88,7 @@ public class LevelPanel extends JPanel implements Observer {
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                player1.stopMovingRight();
+                player1.setMovingRight(false);
             }
         });
 

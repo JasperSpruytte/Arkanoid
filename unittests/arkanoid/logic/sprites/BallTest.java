@@ -21,7 +21,7 @@ public class BallTest {
 
         int expectedNewX = x + horizontalSpeed;
         int expectedNewY = y + verticalSpeed;
-        Assert.assertEquals(expectedNewX, ball.x());
-        Assert.assertEquals(expectedNewY, ball.y());
+        Assert.assertEquals(expectedNewX, ball.getX());
+        Assert.assertEquals(expectedNewY, ball.getY());
     }
 }

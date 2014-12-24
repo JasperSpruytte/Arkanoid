@@ -2,14 +2,18 @@ package arkanoid.logic.sprites;
 
 import arkanoid.logic.sprites.drawing.ImageCreator;
 import arkanoid.logic.sprites.drawing.MonochromeRectangleCreator;
-import jdk.nashorn.internal.ir.annotations.Immutable;
+
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.util.IllegalFormatException;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Created by Jasper on 21/12/2014.
  */
-@Immutable
-public final class Block extends Sprite {
-    private final String color;
+public class Block extends Sprite {
+    private String color;
 
     public Block(int x, int y, int width, int height, String color)
     {
@@ -19,7 +23,7 @@ public final class Block extends Sprite {
 
     @Override
     protected ImageCreator createImageCreator() {
-        ImageCreator imageCreator = new MonochromeRectangleCreator(width(), height(), color);
+        ImageCreator imageCreator = new MonochromeRectangleCreator(getWidth(), getHeight(), color);
         return imageCreator;
     }
 }
